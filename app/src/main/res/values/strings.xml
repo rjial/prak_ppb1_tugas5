@@ -11,4 +11,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="data_mahsiswa">Data Mahsiswa</string>
+    <string name="info_kuliner">Info Kuliner</string>
+    <string name="info_wisata">Info Wisata</string>
+    <string name="info_game">Info Game</string>
+    <string name="info_katalog_produk">Info Katalog Produk</string>
+    <string name="info_olahraga">Info Olahraga</string>
+    <string name="info_transportasi">Info Transportasi</string>
+    <string name="info_entertainment">Info Entertainment</string>
 </resources>

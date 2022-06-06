@@ -56,32 +56,36 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == R.id.nav_camera) {
-                    Intent intent = new Intent(getApplicationContext(), Satu.class);
+                if (id == R.id.nav_data_mahasiswa) {
+                    Intent intent = new Intent(getApplicationContext(), MhsActivity.class);
                     startActivity(intent);
                     return true;
-                } else if (id == R.id.nav_gallery) {
-                    Intent intent = new Intent(getApplicationContext(), GalleryActivity.class);
+                } else if (id == R.id.nav_info_kuliner) {
+                    Intent intent = new Intent(getApplicationContext(), KulinerActivity.class);
                     startActivity(intent);
                     return true;
-
-                } else if (id == R.id.nav_slideshow) {
-                    Intent intent = new Intent(getApplicationContext(), SlideshowActivity.class);
+                } else if (id == R.id.nav_info_wisata) {
+                    Intent intent = new Intent(getApplicationContext(), WisataActivity.class);
                     startActivity(intent);
                     return true;
-
-                } else if (id == R.id.nav_manage) {
-                    Intent intent = new Intent(getApplicationContext(), ToolsActivity.class);
+                } else if (id == R.id.nav_info_game) {
+                    Intent intent = new Intent(getApplicationContext(), GameActivity.class);
                     startActivity(intent);
                     return true;
-
-                } else if (id == R.id.nav_send) {
-                    Intent intent = new Intent(getApplicationContext(), SendActivity.class);
+                } else if (id == R.id.nav_info_katalog_produk) {
+                    Intent intent = new Intent(getApplicationContext(), KatalogProdukActivity.class);
                     startActivity(intent);
                     return true;
-
-                } else if (id == R.id.nav_share) {
-                    Intent intent = new Intent(getApplicationContext(), ShareActivity.class);
+                } else if (id == R.id.nav_info_olahraga) {
+                    Intent intent = new Intent(getApplicationContext(), OlahragaActivity.class);
+                    startActivity(intent);
+                    return true;
+                } else if (id == R.id.nav_info_transportasi) {
+                    Intent intent = new Intent(getApplicationContext(), TransportasiActivity.class);
+                    startActivity(intent);
+                    return true;
+                } else if (id == R.id.nav_info_entertaiment) {
+                    Intent intent = new Intent(getApplicationContext(), EntertainmentActivity.class);
                     startActivity(intent);
                     return true;
                 }
